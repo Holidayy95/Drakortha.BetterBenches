@@ -10,6 +10,9 @@
       "Url": ""
     }
   ],
+  "UpdateChecker": {
+    "CurseForge": "1446543"
+  },
   "Website": "",
   "Dependencies": {},
   "OptionalDependencies": {},
