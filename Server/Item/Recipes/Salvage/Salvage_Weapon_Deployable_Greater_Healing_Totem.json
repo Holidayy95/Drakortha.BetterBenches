@@ -1,0 +1,33 @@
+{
+  "Input": [
+    {
+      "ItemId": "Weapon_Deployable_Greater_Healing_Totem",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Life_Essence",
+    "Quantity": 50
+  },
+  "Output": [
+    {
+      "ItemId": "Ingredient_Life_Essence",
+      "Quantity": 50
+    },
+    {
+      "ItemId": "Ore_Adamantite",
+      "Quantity": 5
+    },
+    {
+      "ItemId": "Potion_Health",
+      "Quantity": 3
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Salvagebench"
+    }
+  ],
+  "TimeSeconds": 4
+}

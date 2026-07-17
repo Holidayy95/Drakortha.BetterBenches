@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Bench_Sowing.name",
+    "Description": "server.items.Bench_Sowing.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Sowing.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      11.4,
+      -19.8
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 12,
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 14
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 45
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 4,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Sowing.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Sowing_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Farming",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "Hides",
+          "Icon": "Icons/CraftingCategories/Farming/Farming.png",
+          "Name": "server.benchCategories.Sowing.hides"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Bench_Placeholder",
+      "LocalCloseSoundEventId": "SFX_Bench_Placeholder",
+      "CompletedSoundEventId": "SFX_Bench_Placeholder",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "Sowing"
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {}
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#815c39",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood"
+  }
+}

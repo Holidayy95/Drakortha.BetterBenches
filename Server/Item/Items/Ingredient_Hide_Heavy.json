@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Hide_Heavy.name",
+    "Description": "server.items.Ingredient_Hide_Heavy.description"
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Materials/Hide.blockymodel",
+  "Texture": "Resources/Materials/Hide_Textures/Heavy.png",
+  "Quality": "Common",
+  "ItemLevel": 6,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.52,
+    "Translation": [
+      1.5,
+      -5.7
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Scale": 1.5,
+  "Icon": "Icons/ItemsGenerated/Ingredient_Hide_Heavy.png",
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Hide_Medium",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Sowing",
+        "Type": "Crafting",
+        "Categories": [
+          "Hides"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 8
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Hide"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "DropOnDeath": true
+}

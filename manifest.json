@@ -1,0 +1,20 @@
+{
+  "Group": "Drakortha",
+  "Name": "BetterBenches",
+  "Version": "1.5.0",
+  "Description": "Adds more Upgrade Tiers to your Furances, Tannery, Salvager and more!",
+  "Authors": [
+    {
+      "Name": "Drakortha",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

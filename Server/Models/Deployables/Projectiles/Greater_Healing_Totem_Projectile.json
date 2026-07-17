@@ -1,0 +1,46 @@
+{
+  "HitBox": {
+    "Max": {
+      "X": 0.1,
+      "Y": 0.1,
+      "Z": 0.1
+    },
+    "Min": {
+      "X": -0.1,
+      "Y": -0.1,
+      "Z": -0.1
+    }
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "DefaultAttachments": [
+    {
+      "Model": "Items/Deployables/Greater_Healing_Totem/Greater_Healing_Totem_Projectile.blockymodel",
+      "Texture": "Items/Deployables/Greater_Healing_Totem/Greater_Healing_Totem_Texture.png"
+    }
+  ],
+  "Model": "Items/Deployables/Greater_Healing_Totem/Greater_Healing_Totem_Projectile.blockymodel",
+  "Texture": "Items/Deployables/Greater_Healing_Totem/Greater_Healing_Totem_Texture.png",
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Items/Animations/Fly/Fly_Vertical.blockyanim"
+        }
+      ]
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Greater_Healing_Totem_Projectile.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      0,
+      -75
+    ]
+  }
+}

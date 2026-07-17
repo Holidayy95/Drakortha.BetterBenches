@@ -1,0 +1,7 @@
+# === assetEditor ===
+
+items.Weapon_Deployable_Greater_Healing_Totem.name = Greater Healing Totem
+items.Weapon_Deployable_Greater_Healing_Totem.description = A more robust healing totem \n\nHeals <color is=#a70101>8 HP</color> per tick, 6 more than the Basic Healing Totem.
+items.Bench_Sowing.name = Sowing Bench
+items.Bench_Sowing.description = A Sowing Bench used to combine or upgrade hides
+benchCategories.Sowing.hides = Hides Sowing
